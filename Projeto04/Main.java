@@ -2,11 +2,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Veiculo carro01 = new Carro("C3ER222", "Celta ", 100);
+        //Veiculo carro01 = new Carro("C3ER222", "Celta ", 100);
 
         List<Veiculo> todosVeiculos = new ArrayList<>();
 
-        todosVeiculos.add(carro01);
+        //todosVeiculos.add(carro01);
 
         for (Veiculo v : todosVeiculos){
             System.out.println("Placa: " + v.getPlaca());

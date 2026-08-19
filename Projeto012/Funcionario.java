@@ -1,4 +1,4 @@
-package Projeto06;
+package Projeto012;
 
 public abstract class Funcionario {
     private String nome;

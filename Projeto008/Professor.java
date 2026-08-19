@@ -1,4 +1,4 @@
-package ProjetosJava.Projeto008;
+
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ public class Professor extends Pessoa{
     ArrayList<Turma> turmas;
     
     public Professor(String nome, int matricula, String formacaoAcademica, double salario){
-        super(nome, matricula);
+        super(nome, matricula, salario);
         this.formacaoAcademica = formacaoAcademica;
         this.salario = salario;
     }

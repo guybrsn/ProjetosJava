@@ -1,5 +1,3 @@
-package ProjetosJava.Projeto008;
-
 import java.sql.Date;
 
 public class Aluno extends Pessoa{
@@ -8,7 +6,7 @@ public class Aluno extends Pessoa{
     Turma turma;
 
     public Aluno(String nome, int matricula, Date dataNascimento){
-        super(nome, matricula);
+        super(nome, matricula, matricula);
         this.dataNascimento = dataNascimento;
     }
 

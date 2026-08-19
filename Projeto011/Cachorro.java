@@ -1,4 +1,4 @@
-package Projeto05;
+package Projeto011;
 
 public class Cachorro extends Mamifero{
     public Cachorro(String nome, String Pelagem){
