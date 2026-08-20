@@ -1,7 +1,7 @@
 package Projeto011;
 import java.util.*;
 
-public class Main {
+public class LojaDeCachorro {
     public static void main(String[] args) {
         Mamifero cachorro01 = new Cachorro("Lindinha", "Cor clara");
         Mamifero gato01 = new Gatos("Princesinha", "Preto e Branco");

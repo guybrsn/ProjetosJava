@@ -1,6 +1,6 @@
 package Projeto012;
 
-public class Main {
+public class EmpresaContabil {
     public static void main(String[] args) {
         Funcionario func01 = new FuncionarioCLT("Bruno", 1500, 200);
 

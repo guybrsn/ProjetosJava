@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Loja {
     public static void main(String[] args) {
         //Veiculo carro01 = new Carro("C3ER222", "Celta ", 100);
 

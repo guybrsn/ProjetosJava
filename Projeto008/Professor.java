@@ -10,7 +10,7 @@ public class Professor extends Pessoa{
     ArrayList<Turma> turmas;
     
     public Professor(String nome, int matricula, String formacaoAcademica, double salario){
-        super(nome, matricula, salario);
+        super(nome, matricula);
         this.formacaoAcademica = formacaoAcademica;
         this.salario = salario;
     }
@@ -30,4 +30,13 @@ public class Professor extends Pessoa{
         return salario;
     }
 
+
+    public void setFormacaoAcademica(String formacaoAcademica) {
+        this.formacaoAcademica = formacaoAcademica;
+    }
+
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
 }

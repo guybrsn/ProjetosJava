@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Atacadao {
 
     public static void main(String[] args) {
         Produto produto01 = new Eletronicos("Celular", 3211.00, 5, 6); 

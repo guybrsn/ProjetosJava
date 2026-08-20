@@ -5,9 +5,10 @@ public class Turma {
     
     private String sigla;
     private int ano;
+
     ArrayList<Aluno> alunos;
-    ArrayList<Professor> professores = new ArrayList<>();
-    ArrayList<Disciplina> disciplinas = new ArrayList<>();
+    ArrayList<Professor> professores;
+    ArrayList<Disciplina> disciplinas;
     
     public Turma(String sigla, int ano){
         this.sigla = sigla;
@@ -26,4 +27,13 @@ public class Turma {
     public int getAno() {
         return ano;
     }
+
+    public void setSigla(String sigla){
+        this.sigla = sigla;
+    }
+
+    public void setAno(int ano){
+        this.ano = ano;
+    }
+
 }

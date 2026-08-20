@@ -25,4 +25,16 @@ public class Disciplina {
         return cargaHoraria;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+
+        if (cargaHoraria >= 0) {
+            this.cargaHoraria = cargaHoraria;
+        }
+        
+    }
+    
 }

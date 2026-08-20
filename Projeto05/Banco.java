@@ -1,7 +1,7 @@
 package Projeto05;
 import java.util.*;
 
-public class Main {
+public class Banco {
     public static void main(String[] args) {
         Conta conta01 = new ContaCorrente(123, "Maria Eduarda", 2000);
         
