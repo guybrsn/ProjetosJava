@@ -10,12 +10,21 @@ public class Escola {
 
         aluno01.setTurma(turma01);
         aluno02.setTurma(turma01);
+        turma01.adicionarAluno(aluno01);
+        turma01.adicionarAluno(aluno02);
 
         System.out.println("Turma " + aluno01.getTurma().getSigla());
         System.out.println("Nome: " + aluno01.getNome());
         System.out.println("Matricula " + aluno01.getMatricula());
         System.out.println("Data de nascimento " + aluno01.getDataNascimento());
+        System.out.println("");
 
-    }
-    
+        System.out.println("Alunos da turma");
+        for(int i = 0 ; i < turma01.quantidadeAlunos() ; i++){
+            System.out.println("Nome: " + turma01.getAluno(i).getNome());
+            System.out.println("Matricula " + turma01.getAluno(i).getMatricula());
+            System.out.println("Data de nascimento " + turma01.getAluno(i).getDataNascimento());
+            System.out.println("");
+        }
+    }    
 }
