@@ -6,18 +6,32 @@ public class Professor extends Pessoa{
 
     private String formacaoAcademica;
     private double salario;
-    ArrayList<Disciplina> disciplinas;
-    ArrayList<Turma> turmas;
+
+    private ArrayList<Disciplina> disciplinas;
+    private ArrayList<Turma> turmas;
     
     public Professor(String nome, int matricula, String formacaoAcademica, double salario){
         super(nome, matricula);
         this.formacaoAcademica = formacaoAcademica;
         this.salario = salario;
+        disciplinas = new ArrayList<Disciplina>();
     }
 
 
-    public void aplicaAvaliacao(){
+    public void adicionarDisciplina(Disciplina disciplina){
+        disciplinas.add(disciplina);
+    }
 
+    public void removerDisciplina(Disciplina disciplina){
+        disciplinas.remove(disciplina);
+    }
+
+    public int quantidadeDisciplina(){
+        return disciplinas.size();
+    }
+
+    public Disciplina getDisciplina(int posicao){
+        return disciplinas.get(posicao);
     }
 
 
