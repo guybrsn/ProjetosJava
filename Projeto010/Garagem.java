@@ -1,6 +1,6 @@
-package Projeto04;
+package Projeto010;
 
-public class Main {
+public class Garagem {
     public static void main(String[] args) {
        
     }

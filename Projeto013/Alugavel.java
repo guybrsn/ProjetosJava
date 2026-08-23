@@ -1,4 +1,4 @@
-package Projeto07;
+package Projeto013;
 
 public interface Alugavel {
     public void alugar(int dias);

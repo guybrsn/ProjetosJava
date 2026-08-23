@@ -1,7 +1,7 @@
 package Projeto01;
 import java.util.*;
 
-public class Main {
+public class Empresa {
     public static void main(String[] args) {
         Funcionario funcionario01 = new Funcionario("Carlos Da Silva", 1500);
 

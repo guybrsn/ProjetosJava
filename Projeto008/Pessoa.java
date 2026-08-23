@@ -1,4 +1,4 @@
-package ProjetosJava.Projeto008;
+
 
 public class Pessoa {
 
@@ -13,7 +13,6 @@ public class Pessoa {
         
     }
     
-
     
     public String getNome() {
         return nome;
