@@ -7,8 +7,8 @@ public class Turma {
     private int ano;
 
     private ArrayList<Aluno> alunos;
-    private ArrayList<Professor> professores;
-    private ArrayList<Disciplina> disciplinas;
+    //private ArrayList<Professor> professores;
+    //private ArrayList<Disciplina> disciplinas;
     
     public Turma(String sigla, int ano){
         this.sigla = sigla;

@@ -8,7 +8,7 @@ public class Disciplina {
     private int cargaHoraria;
 
     private ArrayList<Professor> professores;
-    private ArrayList<Turma> turmas;
+   // private ArrayList<Turma> turmas;
 
     public Disciplina(String nome, int cargaHoraria){
         this.nome = nome;

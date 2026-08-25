@@ -8,7 +8,7 @@ public class Professor extends Pessoa{
     private double salario;
 
     private ArrayList<Disciplina> disciplinas;
-    private ArrayList<Turma> turmas;
+    //private ArrayList<Turma> turmas;
     
     public Professor(String nome, int matricula, String formacaoAcademica, double salario){
         super(nome, matricula);
